@@ -1,0 +1,109 @@
+.heading h2 {
+    margin-top: 40px;
+    color: #1976D2;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* .heading .btn {
+    background-color: #4B49AC;
+    color: white;
+    padding: 5px 8px;
+} */
+
+/* HTML: <div class="loader"></div> */
+
+.load{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    /* height: 100vh; */
+    width: 100%;
+  }
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    --_c:no-repeat radial-gradient(farthest-side,#1976D2 92%,#0000);
+    background: 
+      var(--_c) top,
+      var(--_c) left,
+      var(--_c) right,
+      var(--_c) bottom;
+    background-size: 12px 12px;
+    animation: l7 1s infinite;
+  }
+  @keyframes l7 {to{transform: rotate(.5turn)}}
+
+.box {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    background: #ffffff;
+    align-items: center;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #1976D2;
+}
+
+.title h1 {
+    color: white;
+    font-size: 1.25rem;
+    display: contents;
+}
+
+.body {
+    padding: 18px 18px;
+}
+
+.body label {
+    color: #1976D2;
+}
+
+.footer {
+    padding: 0 10px;
+    border-top: 1px solid #dee2e6;
+}
+
+.footer span {
+    align-items: end;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.css-zcbmsk-MuiButtonBase-root-MuiButton-root {
+    background-color: #1976D2 !important;
+}
+
+/* .list {
+    width: 50%;
+    margin: 30px auto;
+    background: #98BDFF;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 20px 20px;
+    border-radius: 15px;
+    transition: all .3s;
+} */
+
+.table>:not(caption)>*>*{
+    background-color: transparent !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #4B49AC !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
